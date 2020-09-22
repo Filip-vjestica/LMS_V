@@ -1,0 +1,23 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Username</th>
+        <th scope="col">Ime</th>
+        <th scope="col">Prezime</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of users">
+        <th scope="row">{{ u.id }}</th>
+        <td>{{ u.username }}</td>
+        <td>{{ u.ime }}</td>
+        <td>{{ u.prezime }}</td>
+        <td>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+
+  

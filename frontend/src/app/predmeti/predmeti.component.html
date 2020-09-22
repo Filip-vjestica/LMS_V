@@ -1,0 +1,25 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Naziv</th>
+        <th scope="col">ESPB</th>
+        <th scope="col">Broj predavanja</th>
+        <th scope="col">Broj vezbi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of predmeti">
+        <th scope="row">{{ u.id }}</th>
+        <td>{{ u.naziv }}</td>
+        <td>{{ u.espb }}</td>
+        <td>{{ u.brojPredavanja }}</td>
+        <td>{{ u.brojVezbi }}</td>
+        <td>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+
+  
